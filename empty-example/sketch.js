@@ -1,22 +1,20 @@
 function setup() {
     createCanvas(400, 400);
-    background(24);
+}
 
-    // note to self: eyes
-    // and nose
-    fill(255, 0, 0);
-    ellipse(200, 200, 50, 25);
-    rect(140, 150, 50, 20);
-    rect(210, 150, 50, 20);
+function draw() {
+    background(24);
 
     // note to self: head
     noFill();
     stroke(255);
     strokeWeight(4);
-    ellipse(200, 200,180,180);
+    ellipse(mouseX, mouseY+50, 18,18);
 
-}
-
-function draw() {
-
+    strokeWeight(1);
+    fill(0, 255, 0);
+    textSize(mouseX);
+    text("Hello World!", mouseX, mouseY);
+    textSize(24);
+    text(frameCount, 150, 50);
 }
