@@ -3,7 +3,7 @@ function setup() {
     background(128);
 
     translate(250, 250);
-    
+
     // draw your character relative to (0,0)
     fill(196);
     stroke(64);
@@ -14,7 +14,7 @@ function setup() {
     noStroke();
     ellipse(-8, -18, 10, 10);
     ellipse(8, -18, 10, 10);
-    
+
     stroke(24);
     strokeWeight(1);
     line(-11, -24, -4, -30);
