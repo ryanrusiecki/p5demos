@@ -7,7 +7,7 @@ function setup() {
 function draw() {
     background(128);
     var y = 40;
-    while (y < height){
+    while (y < height) {
         var x = 25;
         while (x < width) {
             face(x, y);

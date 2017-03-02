@@ -2,16 +2,16 @@ function setup() {
     createCanvas(500, 500);
 }
 
-function draw(){
+function draw() {
     background(128);
     face(50, 50);
     face(150, 50);
     face(mouseX, mouseY);
 }
 
-function face(x, y){
+function face(x, y) {
     push();
-    translate(x,y);
+    translate(x, y);
     // draw your character relative to (0,0)
     fill(196);
     stroke(64);
@@ -22,7 +22,7 @@ function face(x, y){
     noStroke();
     ellipse(-8, -18, 10, 10);
     ellipse(8, -18, 10, 10);
-    
+
     stroke(24);
     strokeWeight(1);
     line(-11, -24, -4, -30);

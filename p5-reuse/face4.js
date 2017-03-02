@@ -8,14 +8,14 @@ function setup() {
 }
 
 function draw() {
-    if (y < height){
+    if (y < height) {
         if (x < width) {
             face(x, y);
             x = x + 50;
-        }else{
-	    x = 25;
+        } else {
+            x = 25;
             y = y + 70;
-	}
+        }
     }
 }
 

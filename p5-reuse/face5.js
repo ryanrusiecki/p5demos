@@ -8,13 +8,13 @@ function setup() {
 var y = 40;
 
 function draw() {
-    if (y < height){
-	var x = 25;
-	while (x < width) {
+    if (y < height) {
+        var x = 25;
+        while (x < width) {
             face(x, y);
             x = x + 50;
-	}
-	y = y + 80;
+        }
+        y = y + 80;
     }
 }
 
