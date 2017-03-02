@@ -14,7 +14,7 @@ function draw() {
             x = x + 50;
         }else{
 	    x = 25;
-            y = y + 50;
+            y = y + 70;
 	}
     }
 }
