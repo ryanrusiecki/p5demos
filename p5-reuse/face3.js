@@ -2,14 +2,16 @@ var x = 25;
 var y = 40;
 
 function setup() {
-    createCanvas(50 * 10, 80 * 8);
+    createCanvas(50 * 10, 80);
     frameRate(2);
     background(128);
 }
 
 function draw() {
-    face(x, y);
-    x = x + 50;
+    if (x < width){
+	face(x, y);
+	x = x + 50;
+    }
 }
 
 function face(x, y) {
