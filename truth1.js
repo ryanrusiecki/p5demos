@@ -33,11 +33,11 @@ var th = 50;
 var answer;
 
 function preload() {
-    benjerry1 = loadImage('assets/ben-jerry-trump.jpg');
-    chickfila = loadImage('assets/chick-fil-a-racist-2.jpeg');
-    childimplant = loadImage('assets/child_breast_implant.jpg');
-    benjerry2 = loadImage('assets/empowermint.jpeg');
-    ivankaputin = loadImage('assets/ivanka-putin-and-murdoch.jpg');
+    benjerry1 = loadImage('ben-jerry-trump.jpg');
+    chickfila = loadImage('chick-fil-a-racist-2.jpeg');
+    childimplant = loadImage('child_breast_implant.jpg');
+    benjerry2 = loadImage('empowermint.jpeg');
+    ivankaputin = loadImage('ivanka-putin-and-murdoch.jpg');
 }
 
 function setup() {
